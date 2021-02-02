@@ -1,0 +1,26 @@
+{
+  "name": "ReactTemplate",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch src/index.tsx",
+    "build": "parcel build src/index.tsx"
+  },
+  "app": "public/bundle/bundle.js",
+  "targets": {
+    "app": {
+      "distDir": "public/bundle/"
+    }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "sass": "^1.32.6",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
